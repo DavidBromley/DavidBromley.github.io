@@ -27,7 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I am a PhD student at the Department of Computer Science, University of Toronto in the [Physics-Informed Vision and Imaging](https://pi-vision.github.io/), a part of the [Toronto Computational Imaging Group](https://www.compimaging.dgp.toronto.edu/), supervised by [Aviad Levis](https://www.aviadlevis.info/). I study computational imaging for science. In particular, I work on developing methods for astrophysicists to better image black holes. I am interested in generative models, neural fields, physics-informed machine learning, uncertainty quantification, and black hole spacetime tomography. Previously, I graduated from the University of British Columbia *with high distinction*, with a Combined Honours in Mathematics and Computer Science. There, I conducted research projects in formal verification and computational biology with Margo Seltzer and Dan Coombs respectively.
+Hello! I am a PhD student at the Department of Computer Science, University of Toronto in the [Physics-Informed Vision and Imaging](https://pi-vision.github.io/), a part of the [Toronto Computational Imaging Group](https://www.compimaging.dgp.toronto.edu/), supervised by [Aviad Levis](https://www.aviadlevis.info/). 
+
+I study computational imaging for science. In particular, I work on developing methods for astrophysicists to better image black holes. I am interested in generative models, neural fields, physics-informed machine learning, uncertainty quantification, and black hole spacetime tomography. 
+
+Previously, I graduated from the University of British Columbia *with high distinction*, with a Combined Honours in Mathematics and Computer Science. There, I conducted research projects in formal verification and computational biology with Margo Seltzer and Dan Coombs respectively.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
