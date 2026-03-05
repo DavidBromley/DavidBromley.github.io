@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received the Vector Scholarship in Artificial Intelligence
+Received the Vector Scholarship in Artificial Intelligence!
