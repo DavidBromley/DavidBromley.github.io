@@ -32,7 +32,26 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
+        {% if page.profile.contact_items %}
+          <div class="contact-info">
+            <ul class="contact-list">
+              {% for item in page.profile.contact_items %}
+                <li class="contact-list-item">
+                  <span class="contact-label">{{ item.label }}</span>
+                  <span class="contact-value">
+                    {% if item.type == 'email' %}
+                      <a href="mailto:{{ item.value | encode_email }}">{{ item.display | default: item.value }}</a>
+                    {% elsif item.href %}
+                      <a href="{{ item.href }}">{{ item.display | default: item.value }}</a>
+                    {% else %}
+                      {{ item.display | default: item.value }}
+                    {% endif %}
+                  </span>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% elsif page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>

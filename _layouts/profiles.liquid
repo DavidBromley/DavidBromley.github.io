@@ -17,7 +17,26 @@ layout: page
             {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
             {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
           {% endif %}
-          {% if profile.more_info %}
+          {% if profile.contact_items %}
+            <div class="contact-info">
+              <ul class="contact-list">
+                {% for item in profile.contact_items %}
+                  <li class="contact-list-item">
+                    <span class="contact-label">{{ item.label }}</span>
+                    <span class="contact-value">
+                      {% if item.type == 'email' %}
+                        <a href="mailto:{{ item.value | encode_email }}">{{ item.display | default: item.value }}</a>
+                      {% elsif item.href %}
+                        <a href="{{ item.href }}">{{ item.display | default: item.value }}</a>
+                      {% else %}
+                        {{ item.display | default: item.value }}
+                      {% endif %}
+                    </span>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% elsif profile.more_info %}
             <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
         </div>

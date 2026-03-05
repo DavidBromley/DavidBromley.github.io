@@ -8,8 +8,11 @@ profile:
   align: right
   image: headshot.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    david(dot)bromley(at)mail(dot)utoronto(dot)ca
+  contact_items:
+    - label: Email
+      value: david.bromley@mail.utoronto.ca
+      display: david(dot)bromley(at)mail(dot)utoronto(dot)ca
+      type: email
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
