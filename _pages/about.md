@@ -9,7 +9,7 @@ profile:
   image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>david(dot)bromley(at)mail(dot)utoronto(dot)ca<p>
+    david(dot)bromley(at)mail(dot)utoronto(dot)ca
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
