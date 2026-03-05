@@ -395,7 +395,7 @@ ninja.data = [{
           title: 'Accepted into the Master of Science in CS at UofT!',
           description: "",
           section: "News",},{id: "news-received-the-vector-scholarship-in-artificial-intelligence",
-          title: 'Received the Vector Scholarship in Artificial Intelligence',
+          title: 'Received the Vector Scholarship in Artificial Intelligence!',
           description: "",
           section: "News",},{id: "news-received-the-ontario-graduate-scholarship",
           title: 'Received the Ontario Graduate Scholarship!',
