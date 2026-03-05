@@ -8,13 +8,13 @@ profile:
   align: right
   image: headshot.jpg
   image_circular: false # crops the image to make it circular
-#  more_info: >
-#    <p>555 your office number</p>
-#    <p>123 your address street</p>
-#    <p>Your City, State 12345</p>
+  more_info: >
+    <p>Department of Computer Science</p>
+    <p>University of Toronto</p>
+    <p>david(dot)bromley(at)mail(dot)utoronto(dot)ca
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: True # includes a list of news items
