@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: True # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: False
@@ -29,7 +29,7 @@ latest_posts:
 
 Hello! I am a PhD student at the Department of Computer Science, University of Toronto in the [Physics-Informed Vision and Imaging](https://pi-vision.github.io/), a part of the [Toronto Computational Imaging Group](https://www.compimaging.dgp.toronto.edu/), supervised by [Aviad Levis](https://www.aviadlevis.info/). 
 
-I study computational imaging for science. In particular, I work on developing methods for astrophysicists to better image black holes. I am interested in generative models, neural fields, physics-informed machine learning, uncertainty quantification, and black hole spacetime tomography. 
+I study computational imaging for science. In particular, I work on developing methods for astrophysicists to better image black holes. I am interested in generative models, neural fields, physics-informed machine learning, uncertainty quantification, and black hole spacetime tomography.
 
 Previously, I graduated from the University of British Columbia with high distinction, with a Combined Honours in Mathematics and Computer Science. There, I conducted research projects in formal verification and computational biology.
 
