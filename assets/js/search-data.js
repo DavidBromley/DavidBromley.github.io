@@ -391,16 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-accepted-into-the-master-of-science-in-cs-at-uoft",
+          title: 'Accepted into the Master of Science in CS at UofT!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-received-the-vector-scholarship-in-artificial-intelligence",
+          title: 'Received the Vector Scholarship in Artificial Intelligence',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-received-the-ontario-graduate-scholarship",
+          title: 'Received the Ontario Graduate Scholarship!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
