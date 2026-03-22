@@ -796,6 +796,8 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `website`: Adds a "Website" button redirecting to the specified link
 
+For any of these link-style fields, you can optionally add a companion label field to override the button text. For example, `html={https://example.com}` with `html_label={Webpage}`, or `website={https://arxiv.org/abs/1234.5678}` with `website_label={Preprint}`.
+
 You can implement your own buttons by editing the [\_layouts/bib.liquid](_layouts/bib.liquid) file.
 
 ## Changing theme color
