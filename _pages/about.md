@@ -30,7 +30,7 @@ latest_posts:
 
 Hello! I am a PhD student at the [Department of Computer Science, University of Toronto](https://web.cs.toronto.edu/) in the [Physics-Informed Vision and Imaging](https://pi-vision.github.io/) group. This is a part of the [Toronto Computational Imaging Group](https://www.compimaging.dgp.toronto.edu/) run by [Aviad Levis](https://www.aviadlevis.info/), [David Lindell](https://davidlindell.com/), and [Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/), which is under the [Dynamic Graphics Project](https://www.dgp.toronto.edu/). I am supervised by [Aviad Levis](https://www.aviadlevis.info/).
 
-I study computational imaging for science. I work on modern methods for solving ill-posed scientific inverse problems. In particular, I've been developing methods for astrophysicists to better image, and solve inverse problems on, black holes. I am interested in generative models, neural fields, physics-informed machine learning, uncertainty quantification, and inverse problems.
+I study computational imaging for science. I work on modern methods for solving ill-posed scientific inverse problems. In particular, I've been developing methods for astrophysicists to better image, and solve inverse problems on, black holes. I am interested in generative models, neural fields, physics-informed machine learning, uncertainty quantification, and differentiable rendering.
 
 Previously, I graduated from the University of British Columbia with high distinction, with a Combined Honours in Mathematics and Computer Science. There, I conducted research projects in formal verification and computational biology.
 
